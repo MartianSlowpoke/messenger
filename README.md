@@ -8,7 +8,7 @@ The service is developed following REST-API standards. The web-service applicati
 The web-service is divided into two parts.
 The first part is used for manipulating with the web-service's resources.
 Access to the resources is performed using HTTP protocol.
-The second one acts as a notification service that workds view web-socket protocol.
+The second one acts as a notification service that works based on web-socket protocol.
 When a user performs an operation on a resource(adding a new message), all users are notificated via that notification service.
 
 ### API
