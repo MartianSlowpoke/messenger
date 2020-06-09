@@ -1,0 +1,30 @@
+test
+
+1. to create a new user account
+
+	POST /messenger/users
+	Content-Type multipart/form-data
+	
+2. to connect to the websocket server
+
+	run the test ws client and insert the jsessionid
+	
+3. to create a new chat
+
+	POST /messenger/chats
+	Content-Type multipart/form-data
+	
+	participiant : <id>
+	
+	participiant : <id>
+	
+4. to put a new message into the created chat
+
+	POST /messenger/messages
+	Content-Type multipart/form-data
+	
+	chatId : <chatId>
+	
+	content : <message>
+	
+	file : <file>
